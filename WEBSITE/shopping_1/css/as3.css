@@ -1,0 +1,136 @@
+.main-page{
+	width:80%;
+	margin:auto;
+}
+
+/*.....................for Navigation(box-1)...............*/
+
+.navigation1 {
+	
+	text-align:right;
+	background-color:black;
+	padding: 10px;
+}
+
+.navigation1 li{
+	display:inline;
+}
+
+.navigation1 a{
+	color:white;
+	text-decoration:none;
+	text-style:none;
+	padding: 10px;
+}
+
+.navigation1 a:hover,.for-bike{
+	color:black;
+	background:#8f746c;
+}
+
+
+/*.....................for images...............*/
+
+.for-img1{
+	width:100%;
+}
+.for-img2{
+	margin-left:270px;
+}
+.body-5{
+	margin:20px 20px;
+	text-align:center;
+}
+
+
+/*............................add to basket........................*/
+
+.body-6{
+	margin:20px 20px;
+	text-align:center;
+}
+#for-basket:hover{
+	color:black;
+	background:#8f746c;
+}
+#for-basket{
+	text-decoration:none;
+	text-style:none;
+	background:white;
+	color:black;
+	border:1px solid black;
+	margin-bottom:20px;
+	padding:10px 15px;
+}
+
+/*....................................................*/
+
+.body-4{
+	
+	text-align:center;
+}
+.body-4 h1{
+	
+	text-align:center;
+	font-size:50px;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+.body-4 h6{
+	
+	text-align:center;
+	margin-bottom:0px;
+}
+
+.for-footer
+{
+	width:100px;
+
+}
+
+/*...........contact page.........................................*/
+
+
+
+.for-form{
+	margin-left:200px;
+	margin-right:200px;
+
+	margin-bottom:40px;
+	background:skyblue;
+}
+#for-h1{
+margin-left:200px;
+}
+#for-h3{
+margin-left:100px;
+}
+.form-group{
+	margin-left:200px;
+	margin-bottom:7px;
+	
+}
+.for-textarea{
+	margin-left:195px;
+	
+}
+.for-submit{
+	margin-top:7px;
+	margin-left:50px;
+}
+
+/*...........contact page.........................................*/
+
+
+.for-about{
+	margin-left:200px;
+	margin-right:200px;
+	margin-bottom:40px;
+}
+.for-about h1{
+	text-align:center;
+}
+
+
+
