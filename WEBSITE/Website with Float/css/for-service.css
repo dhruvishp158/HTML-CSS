@@ -1,0 +1,116 @@
+.clr{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+#first-h1{
+    color:white;
+}
+.box-1, .box-2{
+    background:#35424a;
+}
+.header1 #for-text, #red{
+    color:red;
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.header1{
+    margin-left:2rem;
+    background:#35424a;
+    float:left;
+}
+.nav ul li{
+    background:#35424a;
+    margin-top:1rem;
+    margin-right:1rem;
+    float:right;
+}
+.nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.box-2 .header2{
+
+margin-left:2rem;
+}
+.box-2 #for-black{
+    color:white;
+}
+#for-submit{
+    background: red;
+    color: white;
+}
+.box-2{
+    display: grid;
+    margin-top:-9px;
+    grid-template-columns:1fr 1fr;
+    grid-gap:600px;
+}
+
+.box-2 .for-form{
+    margin-top:1rem;
+}
+
+.section{
+   
+    margin-left:4rem;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section .section2{
+    background: #35424a;
+    height:350px;
+    margin-top:1rem;
+    border:1px solid black;
+}
+.section .sec1{
+    margin-bottom: 4.7rem;
+}
+label{
+    margin-left:10px; 
+    display: block;
+    
+}
+.section2 h1{
+    margin-left:1rem;
+}
+/* input, textarea {
+    margin: 10px;
+    width:80%;
+} */
+
+.section2 #abc{
+    margin: 10px;
+    width:80%;
+
+}
+#for-submit2{
+    margin-left:10px;
+    width:16%;
+    background: red;
+    color: white;
+}
+
+.for-pera{
+    margin-top:2rem;
+    margin-left:1.7rem;
+}
+
+.footer{
+    margin-top:4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    border:1px solid red;
+    background: red;
+    color:white;
+    text-align:center;
+    font-size:9px;
+}
