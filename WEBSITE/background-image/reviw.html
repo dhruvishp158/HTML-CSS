@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Booking Form</title>
+        <link rel="stylesheet" type="text/css" href="./css/for_review.css">
+    </head>
+
+    <body>
+        <form id="my-form">
+            <!-- fieldset 1 -->
+            <fieldset>
+                <legend>Personal details:</legend>
+                    <!-- for 1 -->
+                <div class="grp-content">
+                    <lable for="Username">Username:</lable>
+                    <input type="text" name="usr_name" placeholder="Your user name....">
+                </div>
+                <!-- for 2 -->
+                <div class="grp-content">
+                        <lable for="email">Email:</lable>
+                        <input type="email" name="email" placeholder="Your email id....">
+                </div>
+                <!-- for 3 -->
+                <div class="grp-content">
+                        <lable for="tel">Phone Number:</lable>
+                        <input type="tel" name="tel" placeholder="Your phone number....">
+                </div>
+                <!-- for 4 -->
+                <div class="grp-content">
+                        <lable for="country">Country:</lable>
+                        <select name="country">
+                            <option value=""></option>
+                            <option value="us">US</option>
+                            <option value="Canada">CA</option>
+                            <option value="UK">UK</option>
+                        </select>
+                </div>
+            </fieldset>
+
+            <!-- feildset 2 -->
+            <fieldset>
+                <legend>Booking Details:</legend>
+                <!-- div 1 -->
+                <div class="grp-content">
+                        <lable for="date">Booking Date:</lable>
+                        <input type="date" name="b-date" min="2019-06-20">
+                </div>
+
+                <!-- div 2 -->
+                <div class="grp-content">
+                        <lable for="nb-days">Number os days:</lable>
+                        <input type="number" name="nb-days" min="1" placeholder="1">
+                </div>
+
+                <!-- div 3 -->
+                <div class="grp-content">
+                        <lable for="nb-guests">Number of guests:</lable>
+                        <input type="number" name="number-guest" min="1" max="6">
+                </div>
+
+                <!-- div 4 -->
+                <div class="grp-content-1">
+                    <p>Do you required meals?</p>
+                    <lable>Yes:</lable>
+                    <input type="radio" name="meals" value="YesMeal">
+
+                    <lable>No:</lable>
+                    <input type="radio" name="meals" value="NoMeal">
+                </div>
+                
+                <!-- div 5 -->
+                <div class="grp-content-1">
+                        <p>Do you required a bacony?</p>
+                        <lable>Yes</lable>
+                        <input type="checkbox" name="balcony" value="Yes">
+                </div>
+                
+                 <!-- div 6 -->
+                 <div class="grp-content-1">
+                        <p>Do you required a extra services?</p>
+                        <lable>Spa</lable>
+                        <input type="checkbox" name="service-1" value="sap"><br>
+                        <lable>Hockey Game</lable>
+                        <input type="checkbox" name="service-2" value="game" ><br>
+                        <lable>Bus Tour</lable>
+                        <input type="checkbox" name="service-3" value="tour" >
+                </div>
+
+                <div class="grp-content">
+                    <input type="submit" value="submit">
+                </div>
+  
+            </fieldset>
+
+        </form>
+
+        
+    </body>
+
+</html>
